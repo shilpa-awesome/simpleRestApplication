@@ -1,7 +1,7 @@
-package com.example.allica.demo.Service;
+package com.example.allica.demo.service;
 
-import com.example.allica.demo.Pojo.CustomerDetail;
-import com.example.allica.demo.Repository.CustomerRepo;
+import com.example.allica.demo.pojo.CustomerDetail;
+import com.example.allica.demo.repository.CustomerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

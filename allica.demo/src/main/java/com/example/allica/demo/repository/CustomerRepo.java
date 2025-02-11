@@ -1,9 +1,8 @@
-package com.example.allica.demo.Repository;
+package com.example.allica.demo.repository;
 
-import com.example.allica.demo.Pojo.CustomerDetail;
+import com.example.allica.demo.pojo.CustomerDetail;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.RestController;
 
 @Repository
 public interface CustomerRepo extends JpaRepository<CustomerDetail,Integer> {

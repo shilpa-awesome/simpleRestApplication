@@ -1,11 +1,9 @@
-package com.example.allica.demo.Pojo;
+package com.example.allica.demo.pojo;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-
-import java.time.LocalDate;
 
 @Entity
 public class CustomerDetail {

@@ -1,7 +1,7 @@
 package com.example.allica.demo.controller;
 
-import com.example.allica.demo.Pojo.CustomerDetail;
-import com.example.allica.demo.Service.CustomerService;
+import com.example.allica.demo.pojo.CustomerDetail;
+import com.example.allica.demo.service.CustomerService;
 import com.example.allica.demo.exception.CustomerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
